@@ -1,16 +1,20 @@
-﻿using _Logger.Contract;
+﻿using _Logger;
+using _Logger.Contract;
+using _Logger.Implementation;
+using CustomeLogger.Writter;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace _Logger.Implementation
 {
-    public class Logger : LoggerBase
+    public class BatchLogger : Logger, IBatchLogger
     {
-        private IWriter writer;
-        public Logger(IWriter Writer) : base(Writer)
+        private IBatchWriter writer;
+
+        public BatchLogger(IBatchWriter Writer) : base(Writer as IWriter)
         {
-            writer = Writer;
+            writer = Writer as IBatchWriter;
         }
 
         public override LoggerMessage GetLoggerMessage(LogLevel logLevel, string message)

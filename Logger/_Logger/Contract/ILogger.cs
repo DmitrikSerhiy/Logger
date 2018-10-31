@@ -12,11 +12,5 @@ namespace _Logger.Contract
         void Fatal(string message);
         void Info(string message);
         void Warn(string message);
-
-
-
-        LoggerMessage GetLoggerMessage(LogLevel logLevel, string message);
-        void WriteLog(LogLevel logLevel, string message);
-
     }
 }

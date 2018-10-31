@@ -1,4 +1,5 @@
 ﻿using _Logger;
+using _Logger.Contract;
 using _Logger.Implementation;
 using System;
 using System.Collections.Generic;

@@ -12,7 +12,6 @@ namespace _Logger.Implementation
         {
             this.Level = Level;
             this.Message = Message; 
-            //LogDateTime.ToString("uk-UA", localDate.Kind);
             LogDateTime = DateTime.Now;
         }
         public LogLevel Level { get; }

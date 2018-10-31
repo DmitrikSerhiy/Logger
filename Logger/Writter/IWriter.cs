@@ -1,12 +1,12 @@
-﻿using _Logger.Implementation;
+﻿using Loggers.Implementation;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace _Logger
+namespace Loggers
 {
     public interface IWriter
     {
-        void Write(LoggerMessage loggerMessage); 
+        void Write(LoggerMessage loggerMessage);
     }
 }

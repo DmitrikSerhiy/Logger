@@ -1,9 +1,9 @@
-﻿using _Logger.Contract;
+﻿using Loggers.Contract;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace _Logger.Implementation
+namespace Loggers.Implementation
 {
     public class Logger : LoggerBase
     {

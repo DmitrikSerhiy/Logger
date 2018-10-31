@@ -1,4 +1,4 @@
-﻿namespace _Logger
+﻿namespace Loggers
 {
     public enum LogLevel
     {

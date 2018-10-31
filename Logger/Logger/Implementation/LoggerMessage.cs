@@ -1,10 +1,10 @@
-﻿using _Logger.Contract;
+﻿using Loggers.Contract;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace _Logger.Implementation
+namespace Loggers.Implementation
 {
     public class LoggerMessage : ILoggerMessage
     {

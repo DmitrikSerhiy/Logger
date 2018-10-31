@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using _Logger.Contract;
-using _Logger.Implementation;
+using Loggers.Contract;
+using Loggers.Implementation;
 
 namespace CustomeLogger.Writter
 {
